@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .menu-items {
+    @apply text-menu text-brand font-roboto max-tablet:hidden;
+  }
+  .btn {
+    @apply text-menu text-brand border-2 border-white rounded-[50px] p-3 justify-center;
+  }
+  .wrapper {
+    @apply p-20;
+  }
+}/*# sourceMappingURL=styles.css.map */
